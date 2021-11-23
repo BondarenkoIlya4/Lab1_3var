@@ -65,7 +65,7 @@ int main(int argc, char **argv)
 			win_route[count] = 'r'; 
 		}  
 	}  
-	ROS_INFO ("True_road: %s",win_route.c_str());   
+	ROS_INFO ("True_route: %s",win_route.c_str());   
 	ros::spin();
 	return 0;
 }
