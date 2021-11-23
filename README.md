@@ -10,7 +10,7 @@ rosrun client_server server
 
 rostopic echo /my_topic
 
-Корректные команды для обращения к сервису:
+Команды для обращения к сервису:
 
 rosservice call /glass_bridge 'l'
 
